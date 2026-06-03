@@ -1,0 +1,871 @@
+{
+    "ArtPrompt": {
+        "claude-3.7-sonnet": {
+            "asr": 0.19038461538461537,
+            "input_tokens": 1357,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.380288461538463e-05,
+            "num_samples": 520,
+            "output_tokens": 671,
+            "price": 0.014146540384615382,
+            "reasoning_tokens": 393
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0057692307692307696,
+            "input_tokens": 1329,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.514711538461539e-06,
+            "num_samples": 520,
+            "output_tokens": 799,
+            "price": 0.015982038461538478,
+            "reasoning_tokens": 162
+        },
+        "deepseek-v3.2": {
+            "asr": 0.5076923076923077,
+            "input_tokens": 1255,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00018618144230769232,
+            "num_samples": 520,
+            "output_tokens": 994,
+            "price": 0.0009603717211538467,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.01730769230769231,
+            "input_tokens": 1239,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.384682692307686e-05,
+            "num_samples": 520,
+            "output_tokens": 80,
+            "price": 0.0037093413461538483,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.05576923076923077,
+            "input_tokens": 1238,
+            "invalid_samples": 2,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.747259615384622e-05,
+            "num_samples": 520,
+            "output_tokens": 2460,
+            "price": 0.02601909278846151,
+            "reasoning_tokens": 2050
+        },
+        "gpt-5-chat": {
+            "asr": 0.05961538461538462,
+            "input_tokens": 1239,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00012740423076923073,
+            "num_samples": 520,
+            "output_tokens": 575,
+            "price": 0.0072740673076923095,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.025,
+            "input_tokens": 1235,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.8597980769230765e-05,
+            "num_samples": 520,
+            "output_tokens": 54,
+            "price": 0.00016155185673076927,
+            "reasoning_tokens": 0
+        }
+    },
+    "AutoDAN": {
+        "claude-3.7-sonnet": {
+            "asr": 0.0057692307692307696,
+            "input_tokens": 120,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.797182692307691e-05,
+            "num_samples": 520,
+            "output_tokens": 299,
+            "price": 0.004856936538461534,
+            "reasoning_tokens": 203
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0038461538461538464,
+            "input_tokens": 92,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.39084615384615e-05,
+            "num_samples": 520,
+            "output_tokens": 193,
+            "price": 0.0031824346153846122,
+            "reasoning_tokens": 121
+        },
+        "deepseek-v3.2": {
+            "asr": 0.5423076923076923,
+            "input_tokens": 80,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00014831221153846147,
+            "num_samples": 520,
+            "output_tokens": 715,
+            "price": 0.0004341559692307695,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.17692307692307693,
+            "input_tokens": 81,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.040942307692306e-05,
+            "num_samples": 520,
+            "output_tokens": 190,
+            "price": 0.002106860576923077,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 79,
+            "invalid_samples": 3,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00017448605769230775,
+            "num_samples": 520,
+            "output_tokens": 1578,
+            "price": 0.01588915624999999,
+            "reasoning_tokens": 673
+        },
+        "gpt-5-chat": {
+            "asr": 0.026923076923076925,
+            "input_tokens": 81,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00013801557692307692,
+            "num_samples": 520,
+            "output_tokens": 636,
+            "price": 0.006469661057692306,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.05384615384615385,
+            "input_tokens": 81,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.903019230769232e-05,
+            "num_samples": 520,
+            "output_tokens": 124,
+            "price": 6.378292115384613e-05,
+            "reasoning_tokens": 0
+        }
+    },
+    "CodeChameleon": {
+        "claude-3.7-sonnet": {
+            "asr": 0.9403846153846154,
+            "input_tokens": 1432,
+            "invalid_samples": 1,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0002564400000000004,
+            "num_samples": 520,
+            "output_tokens": 2215,
+            "price": 0.037528073076923116,
+            "reasoning_tokens": 410
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.3038461538461538,
+            "input_tokens": 1407,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.562240384615384e-05,
+            "num_samples": 520,
+            "output_tokens": 981,
+            "price": 0.01894936153846155,
+            "reasoning_tokens": 224
+        },
+        "deepseek-v3.2": {
+            "asr": 0.9865384615384616,
+            "input_tokens": 1206,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00013435817307692316,
+            "num_samples": 520,
+            "output_tokens": 595,
+            "price": 0.0012031304461538458,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.9442307692307692,
+            "input_tokens": 1156,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0001653100961538461,
+            "num_samples": 520,
+            "output_tokens": 473,
+            "price": 0.007604615384615379,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.43846153846153846,
+            "input_tokens": 1144,
+            "invalid_samples": 5,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0002722249038461537,
+            "num_samples": 520,
+            "output_tokens": 2961,
+            "price": 0.031045925480769232,
+            "reasoning_tokens": 1453
+        },
+        "gpt-5-chat": {
+            "asr": 0.5769230769230769,
+            "input_tokens": 1156,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00015245048076923081,
+            "num_samples": 520,
+            "output_tokens": 450,
+            "price": 0.005948153846153851,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.8403846153846154,
+            "input_tokens": 1137,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00013159153846153856,
+            "num_samples": 520,
+            "output_tokens": 441,
+            "price": 0.00032327665192307737,
+            "reasoning_tokens": 0
+        }
+    },
+    "DeepInception": {
+        "claude-3.7-sonnet": {
+            "asr": 0.425,
+            "input_tokens": 408,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0001986917307692309,
+            "num_samples": 520,
+            "output_tokens": 1375,
+            "price": 0.021852276923076917,
+            "reasoning_tokens": 258
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.15576923076923077,
+            "input_tokens": 380,
+            "invalid_samples": 1,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00012297721153846158,
+            "num_samples": 520,
+            "output_tokens": 2763,
+            "price": 0.042586240384615386,
+            "reasoning_tokens": 896
+        },
+        "deepseek-v3.2": {
+            "asr": 0.9769230769230769,
+            "input_tokens": 350,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00019315413461538447,
+            "num_samples": 520,
+            "output_tokens": 1160,
+            "price": 0.0007462854519230765,
+            "reasoning_tokens": 143
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.09615384615384616,
+            "input_tokens": 350,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.615432692307687e-05,
+            "num_samples": 520,
+            "output_tokens": 153,
+            "price": 0.0024144615384615402,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0,
+            "input_tokens": 342,
+            "invalid_samples": 12,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0002921999999999997,
+            "num_samples": 520,
+            "output_tokens": 2761,
+            "price": 0.028044750000000018,
+            "reasoning_tokens": 1125
+        },
+        "gpt-5-chat": {
+            "asr": 0.009615384615384616,
+            "input_tokens": 350,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00022410028846153848,
+            "num_samples": 520,
+            "output_tokens": 1186,
+            "price": 0.012306509615384622,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.4596153846153846,
+            "input_tokens": 353,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0001774378846153847,
+            "num_samples": 520,
+            "output_tokens": 912,
+            "price": 0.0003864461999999997,
+            "reasoning_tokens": 0
+        }
+    },
+    "FlipAttack": {
+        "claude-3.7-sonnet": {
+            "asr": 0.6076923076923076,
+            "input_tokens": 384,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.003894230769228e-05,
+            "num_samples": 520,
+            "output_tokens": 659,
+            "price": 0.011046813461538454,
+            "reasoning_tokens": 258
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0,
+            "input_tokens": 356,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0,
+            "num_samples": 520,
+            "output_tokens": 6,
+            "price": 0.0011730403846153855,
+            "reasoning_tokens": 0
+        },
+        "deepseek-v3.2": {
+            "asr": 0.9538461538461539,
+            "input_tokens": 315,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00012578999999999992,
+            "num_samples": 520,
+            "output_tokens": 602,
+            "price": 0.0004293197980769233,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.7326923076923076,
+            "input_tokens": 305,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.937961538461542e-05,
+            "num_samples": 520,
+            "output_tokens": 378,
+            "price": 0.00455042788461538,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0,
+            "input_tokens": 304,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00014109951923076908,
+            "num_samples": 520,
+            "output_tokens": 1416,
+            "price": 0.014545117788461534,
+            "reasoning_tokens": 724
+        },
+        "gpt-5-chat": {
+            "asr": 0.13846153846153847,
+            "input_tokens": 305,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00011104211538461548,
+            "num_samples": 520,
+            "output_tokens": 465,
+            "price": 0.005036252403846153,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.7403846153846154,
+            "input_tokens": 315,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00010127711538461537,
+            "num_samples": 520,
+            "output_tokens": 416,
+            "price": 0.00021463340576923084,
+            "reasoning_tokens": 0
+        }
+    },
+    "GCG": {
+        "claude-3.7-sonnet": {
+            "asr": 0.0,
+            "input_tokens": 86,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.6463461538461554e-05,
+            "num_samples": 520,
+            "output_tokens": 283,
+            "price": 0.004505838461538464,
+            "reasoning_tokens": 192
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0,
+            "input_tokens": 58,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.83565384615385e-05,
+            "num_samples": 520,
+            "output_tokens": 151,
+            "price": 0.0024420980769230753,
+            "reasoning_tokens": 87
+        },
+        "deepseek-v3.2": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 45,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.276346153846151e-05,
+            "num_samples": 520,
+            "output_tokens": 150,
+            "price": 9.72447423076923e-05,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.0,
+            "input_tokens": 51,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.619423076923075e-05,
+            "num_samples": 520,
+            "output_tokens": 31,
+            "price": 0.0004434134615384618,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0,
+            "input_tokens": 50,
+            "invalid_samples": 7,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.801230769230772e-05,
+            "num_samples": 520,
+            "output_tokens": 774,
+            "price": 0.007804838942307689,
+            "reasoning_tokens": 549
+        },
+        "gpt-5-chat": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 51,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 8.227182692307686e-05,
+            "num_samples": 520,
+            "output_tokens": 278,
+            "price": 0.002850187499999998,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.0,
+            "input_tokens": 54,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.347115384615383e-05,
+            "num_samples": 520,
+            "output_tokens": 22,
+            "price": 1.3955148076923066e-05,
+            "reasoning_tokens": 0
+        }
+    },
+    "ManyShot": {
+        "claude-3.7-sonnet": {
+            "asr": 0.0,
+            "input_tokens": 39037,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.9607115384615356e-05,
+            "num_samples": 520,
+            "output_tokens": 256,
+            "price": 0.12095510769230773,
+            "reasoning_tokens": 135
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0,
+            "input_tokens": 10744,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0,
+            "num_samples": 520,
+            "output_tokens": 1,
+            "price": 0.03225037500000001,
+            "reasoning_tokens": 0
+        },
+        "deepseek-v3.2": {
+            "asr": 0.023076923076923078,
+            "input_tokens": 34167,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.477519230769236e-05,
+            "num_samples": 520,
+            "output_tokens": 163,
+            "price": 0.005190678511538459,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.0,
+            "input_tokens": 9606,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.296923076923074e-05,
+            "num_samples": 520,
+            "output_tokens": 14,
+            "price": 0.013614153846153882,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0,
+            "input_tokens": 7738,
+            "invalid_samples": 243,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 3.76171153846154e-05,
+            "num_samples": 520,
+            "output_tokens": 327,
+            "price": 0.006811128365384618,
+            "reasoning_tokens": 120
+        },
+        "gpt-5-chat": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 32067,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.310442307692305e-05,
+            "num_samples": 520,
+            "output_tokens": 352,
+            "price": 0.011808503846153834,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.25384615384615383,
+            "input_tokens": 36254,
+            "invalid_samples": 2,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.57438461538461e-05,
+            "num_samples": 520,
+            "output_tokens": 172,
+            "price": 0.00396472266826923,
+            "reasoning_tokens": 0
+        }
+    },
+    "PosteriorAttack": {
+        "claude-3.7-sonnet": {
+            "asr": 0.7826923076923077,
+            "input_tokens": 538,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 8.507740384615384e-05,
+            "num_samples": 520,
+            "output_tokens": 607,
+            "price": 0.01072193653846153,
+            "reasoning_tokens": 236
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.9365384615384615,
+            "input_tokens": 510,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.229067307692307e-05,
+            "num_samples": 520,
+            "output_tokens": 584,
+            "price": 0.010298048076923067,
+            "reasoning_tokens": 119
+        },
+        "deepseek-v3.2": {
+            "asr": 0.9923076923076923,
+            "input_tokens": 460,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.099990384615383e-05,
+            "num_samples": 520,
+            "output_tokens": 293,
+            "price": 0.0003005604153846153,
+            "reasoning_tokens": 88
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.7865384615384615,
+            "input_tokens": 459,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.044346153846152e-05,
+            "num_samples": 520,
+            "output_tokens": 175,
+            "price": 0.0029062115384615402,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.33653846153846156,
+            "input_tokens": 456,
+            "invalid_samples": 2,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.227201923076921e-05,
+            "num_samples": 520,
+            "output_tokens": 799,
+            "price": 0.008565358173076913,
+            "reasoning_tokens": 595
+        },
+        "gpt-5-chat": {
+            "asr": 0.0,
+            "input_tokens": 459,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0,
+            "num_samples": 520,
+            "output_tokens": 205,
+            "price": 0.0026296057692307686,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.9846153846153847,
+            "input_tokens": 462,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.664596153846163e-05,
+            "num_samples": 520,
+            "output_tokens": 253,
+            "price": 0.00017030798269230765,
+            "reasoning_tokens": 0
+        }
+    },
+    "PosteriorAttack_No_SystemPrompt": {
+        "claude-3.7-sonnet": {
+            "asr": 0.0,
+            "input_tokens": 0,
+            "invalid_samples": 50,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0,
+            "num_samples": 50,
+            "output_tokens": 0,
+            "price": 0.0,
+            "reasoning_tokens": 0
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.3903846153846154,
+            "input_tokens": 253,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.883038461538466e-05,
+            "num_samples": 520,
+            "output_tokens": 505,
+            "price": 0.00834326538461539,
+            "reasoning_tokens": 222
+        },
+        "deepseek-v3.2": {
+            "asr": 0.9365384615384615,
+            "input_tokens": 229,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.203567307692304e-05,
+            "num_samples": 520,
+            "output_tokens": 153,
+            "price": 0.00013475468961538466,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.9365384615384615,
+            "input_tokens": 229,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.920596153846154e-05,
+            "num_samples": 520,
+            "output_tokens": 211,
+            "price": 0.00268901923076923,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.3173076923076923,
+            "input_tokens": 232,
+            "invalid_samples": 2,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.442778846153847e-05,
+            "num_samples": 520,
+            "output_tokens": 607,
+            "price": 0.0063630624999999955,
+            "reasoning_tokens": 432
+        },
+        "gpt-5-chat": {
+            "asr": 0.9865384615384616,
+            "input_tokens": 233,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.12905769230769e-05,
+            "num_samples": 520,
+            "output_tokens": 142,
+            "price": 0.0017219134615384624,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.975,
+            "input_tokens": 231,
+            "invalid_samples": 1,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 7.349596153846155e-05,
+            "num_samples": 520,
+            "output_tokens": 241,
+            "price": 0.00011698398269230772,
+            "reasoning_tokens": 0
+        }
+    },
+    "PromptAttack": {
+        "claude-3.7-sonnet": {
+            "asr": 0.09038461538461538,
+            "input_tokens": 404,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.5052211538461506e-05,
+            "num_samples": 520,
+            "output_tokens": 226,
+            "price": 0.004613959615384617,
+            "reasoning_tokens": 231
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.7711538461538462,
+            "input_tokens": 376,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.502538461538462e-05,
+            "num_samples": 520,
+            "output_tokens": 448,
+            "price": 0.007858038461538456,
+            "reasoning_tokens": 347
+        },
+        "deepseek-v3.2": {
+            "asr": 0.26346153846153847,
+            "input_tokens": 338,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.3146923076923e-05,
+            "num_samples": 520,
+            "output_tokens": 16,
+            "price": 0.00010720526538461542,
+            "reasoning_tokens": 0
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.07307692307692308,
+            "input_tokens": 338,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.2809711538461516e-05,
+            "num_samples": 520,
+            "output_tokens": 13,
+            "price": 0.0009788076923076922,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 334,
+            "invalid_samples": 5,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.591153846153841e-05,
+            "num_samples": 520,
+            "output_tokens": 805,
+            "price": 0.008468350961538458,
+            "reasoning_tokens": 728
+        },
+        "gpt-5-chat": {
+            "asr": 0.013461538461538462,
+            "input_tokens": 338,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.3511538461538376e-05,
+            "num_samples": 520,
+            "output_tokens": 20,
+            "price": 0.0006294134615384612,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.08461538461538462,
+            "input_tokens": 342,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.3257980769230664e-05,
+            "num_samples": 520,
+            "output_tokens": 20,
+            "price": 4.550503076923074e-05,
+            "reasoning_tokens": 0
+        }
+    },
+    "SelfCipher": {
+        "claude-3.7-sonnet": {
+            "asr": 0.0,
+            "input_tokens": 977,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.390163461538458e-05,
+            "num_samples": 520,
+            "output_tokens": 479,
+            "price": 0.010124342307692312,
+            "reasoning_tokens": 164
+        },
+        "claude-sonnet-4.6": {
+            "asr": 0.0,
+            "input_tokens": 949,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.0,
+            "num_samples": 520,
+            "output_tokens": 7,
+            "price": 0.0029557384615384596,
+            "reasoning_tokens": 0
+        },
+        "deepseek-v3.2": {
+            "asr": 0.7769230769230769,
+            "input_tokens": 829,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.979692307692304e-05,
+            "num_samples": 520,
+            "output_tokens": 349,
+            "price": 0.0004401413057692311,
+            "reasoning_tokens": 116
+        },
+        "gpt-4o-2024-11-20": {
+            "asr": 0.0,
+            "input_tokens": 780,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 5.932586538461536e-05,
+            "num_samples": 520,
+            "output_tokens": 23,
+            "price": 0.002185158653846154,
+            "reasoning_tokens": 0
+        },
+        "gpt-5": {
+            "asr": 0.0019230769230769232,
+            "input_tokens": 779,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.9851634615384597e-05,
+            "num_samples": 520,
+            "output_tokens": 3663,
+            "price": 0.03760584855769232,
+            "reasoning_tokens": 3476
+        },
+        "gpt-5-chat": {
+            "asr": 0.0673076923076923,
+            "input_tokens": 781,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.075288461538459e-05,
+            "num_samples": 520,
+            "output_tokens": 126,
+            "price": 0.002246250000000001,
+            "reasoning_tokens": 0
+        },
+        "qwen3-235b-a22b-2507": {
+            "asr": 0.4326923076923077,
+            "input_tokens": 797,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.86472115384616e-05,
+            "num_samples": 520,
+            "output_tokens": 341,
+            "price": 0.000228429094230769,
+            "reasoning_tokens": 0
+        }
+    }
+}

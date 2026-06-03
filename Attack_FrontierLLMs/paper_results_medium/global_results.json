@@ -1,0 +1,48 @@
+{
+    "PosteriorAttack": {
+        "claude-sonnet-4.6": {
+            "asr": 0.948076923076923,
+            "input_tokens": 510,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.84002884615386e-05,
+            "num_samples": 520,
+            "output_tokens": 611,
+            "price": 0.010709803846153833,
+            "reasoning_tokens": 122
+        },
+        "gpt-5": {
+            "asr": 0.5134615384615384,
+            "input_tokens": 459,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.538182692307689e-05,
+            "num_samples": 520,
+            "output_tokens": 1967,
+            "price": 0.020252060096153865,
+            "reasoning_tokens": 1732
+        },
+        "gpt-oss-120b": {
+            "asr": 0.0038461538461538464,
+            "input_tokens": 500,
+            "invalid_samples": 1,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.274740384615382e-05,
+            "num_samples": 520,
+            "output_tokens": 117,
+            "price": 8.250260961538468e-05,
+            "reasoning_tokens": 155
+        },
+        "gpt-oss-20b": {
+            "asr": 0.06923076923076923,
+            "input_tokens": 516,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 4.6896923076923003e-05,
+            "num_samples": 520,
+            "output_tokens": 430,
+            "price": 0.0001078329134615385,
+            "reasoning_tokens": 484
+        }
+    }
+}

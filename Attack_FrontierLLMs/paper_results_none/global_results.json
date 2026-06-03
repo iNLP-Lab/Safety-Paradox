@@ -1,0 +1,59 @@
+{
+    "PosteriorAttack": {
+        "claude-sonnet-4.6": {
+            "asr": 0.95,
+            "input_tokens": 510,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 9.448846153846155e-05,
+            "num_samples": 520,
+            "output_tokens": 463,
+            "price": 0.008478957692307689,
+            "reasoning_tokens": 0
+        },
+        "gemma-4-26b-a4b-it": {
+            "asr": 0.9615384615384616,
+            "input_tokens": 478,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 8.488528846153845e-05,
+            "num_samples": 520,
+            "output_tokens": 369,
+            "price": 0.0001872620192307692,
+            "reasoning_tokens": 0
+        },
+        "gpt-oss-120b": {
+            "asr": 0.9519230769230769,
+            "input_tokens": 464,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 0.00011426249999999999,
+            "num_samples": 520,
+            "output_tokens": 507,
+            "price": 0.0,
+            "reasoning_tokens": 0
+        },
+        "gpt-oss-20b": {
+            "asr": 0.9865384615384616,
+            "input_tokens": 464,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 8.450798076923072e-05,
+            "num_samples": 520,
+            "output_tokens": 312,
+            "price": 0.0,
+            "reasoning_tokens": 0
+        },
+        "qwen3.6-35b-a3b": {
+            "asr": 0.36923076923076925,
+            "input_tokens": 479,
+            "invalid_samples": 0,
+            "judge_api": "gpt-4o-mini",
+            "judge_api_price": 6.045605769230769e-05,
+            "num_samples": 520,
+            "output_tokens": 140,
+            "price": 0.0002239062390384616,
+            "reasoning_tokens": 0
+        }
+    }
+}

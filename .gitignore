@@ -1,0 +1,23 @@
+finetuned_models/*
+full_finetuned_models/*
+.env
+*.yaml
+
+wandb/*
+logs/*
+
+*.pyc
+# *.ipynb
+ft_dataset/*
+
+Utility_Eval/utility_results/*
+
+*.png
+!figures/*.png
+
+Judgement_Ability/judgement_results_grpo/*
+Posterior_Attack/posterior_prompt_results_grpo/*
+logs/*
+*.pdf
+!figures/*.pdf
+# download_models.py
