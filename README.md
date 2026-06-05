@@ -6,7 +6,7 @@ Official code for **"Safety Paradox: How Enhanced Safety Awareness Leaves LLMs V
   <img src="figures/safety_paradox_acc.png" width="1000" alt="Safety Paradox: judgement accuracy vs. posterior attack success rate">
 </p>
 
-Models trained to *judge* whether a generation is harmful can become *more* vulnerable to **Posterior Attack**—a jailbreak that inverts the judge prompt and asks the model to produce a harmful generation that would be classified as "Yes." This repository contains the training, evaluation, and plotting code used in the paper.
+Models trained to *judge* whether a generation is harmful can become *more* vulnerable to **Posterior Attack**—a jailbreak that inverts the judge prompt and asks the model to produce a harmful generation that would be classified as "Yes." This repository contains the training, evaluation used in the paper.
 
 
 ## Repository structure
@@ -82,18 +82,19 @@ or you can just simply run `bash run.sh`.
 
 Posterior Attack against API and locally served frontier models (Claude, GPT, etc.) lives in `Attack_FrontierLLMs/`. See [`Attack_FrontierLLMs/README.md`](Attack_FrontierLLMs/README.md) for setup, API keys, and pre-computed results under `paper_results_*/`.
 
-<!-- ## Citation
+## Citation
 
 If you use this code, please cite:
 
 ```bibtex
-@inproceedings{long2026safetyparadox,
-  title     = {Safety Paradox: How Enhanced Safety Awareness Leaves {LLMs} Vulnerable to Posterior Attack},
-  author    = {dadad},
-  booktitle = {dadada},
-  year      = {2026}
+@misc{hoang2026safetyparadoxenhancedsafety,
+      title={Safety Paradox: How Enhanced Safety Awareness Leaves LLMs Vulnerable to Posterior Attack}, 
+      author={Long P. Hoang and Hai V. Le and Shaoyang Xu and Wei Lu and Wenxuan Zhang},
+      year={2026},
+      eprint={2606.05614},
+      archivePrefix={arXiv},
+      primaryClass={cs.AI},
+      url={https://arxiv.org/abs/2606.05614}, 
 }
-``` -->
-
-<!-- *(Update author list and BibTeX fields to match the camera-ready version.)* -->
+```
 
